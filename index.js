@@ -15,4 +15,4 @@ bot.on('disconnect', function(msg, code) {
     bot.connect();
 });
 
-bot.login('MzgwOTM2MTE5OTIxMDE2ODQy.DPAAaw.ZcTv8RBWuRBVus-G8kWhc5WK2SA');
+bot.login('MzgwOTM2MTE5OTIxMDE2ODQy.DPALSg.A6g2QEMrNMpfMSY_iDUHtkrMD1s');
