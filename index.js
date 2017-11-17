@@ -15,4 +15,4 @@ bot.on('disconnect', function(msg, code) {
     bot.connect();
 });
 
-bot.login('MzgwOTM2MTE5OTIxMDE2ODQy.DPALSg.A6g2QEMrNMpfMSY_iDUHtkrMD1s');
+bot.login('BOTTOKEN');
