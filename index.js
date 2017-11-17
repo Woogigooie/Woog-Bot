@@ -15,4 +15,4 @@ bot.on('disconnect', function(msg, code) {
     bot.connect();
 });
 
-bot.login('BOTTOKEN');
+bot.login(process.env.BOTTOKEN);
