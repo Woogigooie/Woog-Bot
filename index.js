@@ -10,4 +10,9 @@ bot.on('message', (message) => {
   
 });
 
+bot.on('disconnect', function(msg, code) {
+    if (code === 0) return console.error(msg);
+    bot.connect();
+});
+
 bot.login('BOT_TOKEN');
